@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId="org.opencv" -DartifactId="opencv" -Dversion="4.5.2" -Dpackaging="jar" -Dfile="opencv-452.jar"

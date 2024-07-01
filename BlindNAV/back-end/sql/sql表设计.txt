@@ -1,0 +1,16 @@
+user表：
+id
+name 
+password
+
+audio表：
+id
+//音频文件
+注：不要用音频文件直接存储到数据库中，而是文件存储+url路径的模式
+url
+转化的文本信息
+sentences
+
+
+mvn install:install-file -Dfile=D:\06_term\da_chuang_dev\jiacheng_dev\proj\BlindNAV\back-end\libs\opencv-4.8.0.jar -DgroupId=org.opencv -DartifactId=opencv -Dversion=4.8.0 -Dpackaging=Jar
+
